@@ -1,0 +1,28 @@
+[project]
+name = "climbing-log"
+version = "0.1.0"
+description = "Desktop application to record your climbs"
+readme = "README.md"
+authors = [
+    { name = "afredoherculano", email = "alfredoherculano@proton.me" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "alembic>=1.19.1",
+    "pyside6>=6.11.1",
+    "sqlalchemy>=2.0.52",
+]
+
+[project.scripts]
+climbing-log = "climbing_log:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pyinstaller>=6.22.0",
+    "pytest>=9.1.1",
+    "ruff>=0.16.2",
+]
