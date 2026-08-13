@@ -1,5 +1,5 @@
 [project]
-name = "climbing-log"
+name = "melokaktos"
 version = "0.1.0"
 description = "Desktop application to record your climbs"
 readme = "README.md"
@@ -14,7 +14,7 @@ dependencies = [
 ]
 
 [project.scripts]
-climbing-log = "climbing_log:main"
+melokaktos = "melokaktos:main"
 
 [build-system]
 requires = ["uv_build>=0.12.3,<0.13.0"]
