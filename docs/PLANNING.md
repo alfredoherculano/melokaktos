@@ -1,4 +1,4 @@
-# Climbing Log
+# Melokaktos
 
 
 ## Project Overview
@@ -12,7 +12,7 @@ As a climber, I need a way to save the climbs I complete, creating a history of 
 
 
 ## Core Features (MVP)
-1. Log, edit and delete climbs, with route names, grade, discipline, send type (onsight, flash, redpoint), date and location.
+1. Log, edit and delete climbs, with route names, grade, discipline, send type (onsight, flash, redpoint, attempt), date and location.
 2. Simple and minimalist design.
 
 
