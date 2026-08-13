@@ -12,7 +12,7 @@ Melokaktos is a climbing log desktop application that allows users to record the
 - Python, PySide6, SQLAlchemy, SQLite, Alembic
 - Dependency management: uv
 
-## License
-MIT — see [LICENSE](./LICENSE) for details.
+See [PLANNING](./docs/PLANNING.md) for project scope, architecture, and roadmap.
 
-See [PLANNING.md](./PLANNING.md) for project scope, architecture, and roadmap.
+## License
+MIT — see [LICENSE](./LICENSE.md) for details.
