@@ -2,7 +2,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import DeclarativeBase, sessionmaker
 
-DATABASE_URL = "sqlite:///melokaktos.db"
+from .config import DATABASE_URL
 
 engine = create_engine(DATABASE_URL, echo=True)
 # TO-DO: make sure to change to the following code before shipping
